@@ -2,10 +2,12 @@ import React from 'react';
 import './BreakTimes.css';
 
 function BreakTimes({handleAddTime, handleAddTimeS, handleAddTimeT, handleAddTimeF, handleAddTimeFv}) {
-  // let breakTime = 10;
+  // let breakTime;
+
   return (
     <div>
         <h4>Add a Break</h4>
+     
         <div className='btn-time-container'>
             <button className='btn-time' onClick={handleAddTime}>10s</button>
             <button className='btn-time' onClick={handleAddTimeS}>20s</button>
@@ -17,4 +19,4 @@ function BreakTimes({handleAddTime, handleAddTimeS, handleAddTimeT, handleAddTim
   )
 }
 
-export default BreakTimes
+export default BreakTimes;

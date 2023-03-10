@@ -4,6 +4,8 @@ import BreakTimes from '../BreakTimes/BreakTimes';
 import Details from '../Details/Details';
 import Person from '../Person/Person';
 import './ActivityCart.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function ActivityCart({times}) {
   // console.log(times)
@@ -61,6 +63,15 @@ function ActivityCart({times}) {
       alert('already added')
     }
   }
+
+
+
+  const ActivityCompleted = () => {
+    toast.success("Activity Completed!", {
+    position: "top-center",
+    theme: "colored",
+    });
+  }
   return (
     <div className='cart'>
         <Person></Person>
@@ -73,7 +84,8 @@ function ActivityCart({times}) {
           handleAddTimeFv={handleAddTimeFv}
         ></BreakTimes>
         <Details times={times} breakTimes={breakingTimes}></Details>
-        <button className='btn-activity'>Activity Completed</button>
+        <button className='btn-activity' onClick={ActivityCompleted}>Activity Completed</button>
+        <ToastContainer></ToastContainer>
     </div>
   )
 }
