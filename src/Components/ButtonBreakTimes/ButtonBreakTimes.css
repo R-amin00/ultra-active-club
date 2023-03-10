@@ -22,3 +22,19 @@
 .btn-time:active {
     background-color: blueviolet;
 }
+
+@media only screen and (max-width: 600px){
+    .btn-time-container {
+        margin-top: 10px;
+        padding: 10px 6px;
+    }
+    .btn-time {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    .heading-secondary{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+}

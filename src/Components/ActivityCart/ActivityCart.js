@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import BodyIndex from '../BodyIndex/BodyIndex';
-import BreakTimes from '../BreakTimes/BreakTimes';
+import ButtonBreakTime from '../ButtonBreakTimes/ButtonBreakTimes';
 import Details from '../Details/Details';
 import Person from '../Person/Person';
 import './ActivityCart.css';
@@ -64,8 +64,6 @@ function ActivityCart({times}) {
     }
   }
 
-
-
   const ActivityCompleted = () => {
     toast.success("Activity Completed!", {
     position: "top-center",
@@ -76,13 +74,13 @@ function ActivityCart({times}) {
     <div className='cart'>
         <Person></Person>
         <BodyIndex></BodyIndex>
-        <BreakTimes 
-          handleAddTime={handleAddTime} 
-          handleAddTimeS={handleAddTimeS} 
-          handleAddTimeT={handleAddTimeT}
-          handleAddTimeF={handleAddTimeF}
-          handleAddTimeFv={handleAddTimeFv}
-        ></BreakTimes>
+        <ButtonBreakTime
+           handleAddTime={handleAddTime} 
+           handleAddTimeS={handleAddTimeS} 
+           handleAddTimeT={handleAddTimeT}
+           handleAddTimeF={handleAddTimeF}
+           handleAddTimeFv={handleAddTimeFv}
+        ></ButtonBreakTime>
         <Details times={times} breakTimes={breakingTimes}></Details>
         <button className='btn-activity' onClick={ActivityCompleted}>Activity Completed</button>
         <ToastContainer></ToastContainer>
@@ -90,4 +88,4 @@ function ActivityCart({times}) {
   )
 }
 
-export default ActivityCart
+export default ActivityCart;

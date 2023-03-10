@@ -1,13 +1,12 @@
 import React from 'react';
-import './BreakTimes.css';
+import './ButtonBreakTimes.css';
 
-function BreakTimes({handleAddTime, handleAddTimeS, handleAddTimeT, handleAddTimeF, handleAddTimeFv}) {
+function ButtonBreakTime({handleAddTime, handleAddTimeS, handleAddTimeT, handleAddTimeF, handleAddTimeFv}) {
   // let breakTime;
 
   return (
     <div>
-        <h4>Add a Break</h4>
-     
+        <h4 className='heading-secondary'>Add a Break</h4>
         <div className='btn-time-container'>
             <button className='btn-time' onClick={handleAddTime}>10s</button>
             <button className='btn-time' onClick={handleAddTimeS}>20s</button>
@@ -19,4 +18,4 @@ function BreakTimes({handleAddTime, handleAddTimeS, handleAddTimeT, handleAddTim
   )
 }
 
-export default BreakTimes;
+export default ButtonBreakTime;

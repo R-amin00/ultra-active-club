@@ -11,3 +11,15 @@
 .text-gray {
     color: gray;
 }
+
+@media only screen and (max-width:600px) {
+    .display-field {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        gap: 4px;
+        padding: 0 10px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
