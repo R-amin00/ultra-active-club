@@ -1,0 +1,50 @@
+[
+    {
+        "id":"1",
+        "name":"Dumble",
+        "img":"./image/body-mass.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sunt, nihil possimus harum animi corporis.",
+        "age":"20-25",
+        "time":"30"
+    },
+    {
+        "id":"2",
+        "name":"Dumble",
+        "img":"./image/take-wet.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sunt, nihil possimus harum animi corporis.",
+        "age":"20-25",
+        "time":"30"
+    },
+    {
+        "id":"3",
+        "name":"Dumble",
+        "img":"./image/dumble2.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sunt, nihil possimus harum animi corporis.",
+        "age":"20-25",
+        "time":"30"
+    },
+    {
+        "id":"4",
+        "name":"Dumble",
+        "img":"./image/dumble.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sunt, nihil possimus harum animi corporis.",
+        "age":"20-25",
+        "time":"30"
+    },
+    {
+        "id":"5",
+        "name":"Dumble",
+        "img":"./image/body-flexible.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sunt, nihil possimus harum animi corporis.",
+        "age":"20-25",
+        "time":"30"
+    },
+    {
+        "id":"6",
+        "name":"Dumble",
+        "img":"./image/fit-body.jpg",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sunt, nihil possimus harum animi corporis.",
+        "age":"20-25",
+        "time":"30"
+    }
+]

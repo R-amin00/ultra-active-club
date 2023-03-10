@@ -1,0 +1,13 @@
+.display-field {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.text-gray {
+    color: gray;
+}

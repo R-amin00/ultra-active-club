@@ -1,0 +1,39 @@
+
+.activity-area {
+    padding-left: 100px;
+    background-color: rgb(223, 236, 248);
+}
+h1{
+    color: blueviolet;
+
+}
+h5{
+    color:blueviolet
+}
+.club-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.club-heading {
+    grid-column: span 1;
+}
+.activity-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-right: 100px;
+
+}
+
+.activity-cart-container{
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    /* position: fixed; */
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* position: relative; */
+}

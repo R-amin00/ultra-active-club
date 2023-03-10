@@ -1,0 +1,43 @@
+.exercise-container {
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.exercise-container img {
+    width: 250px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+h4{
+    margin: 0;
+    margin-top: 8px;
+}
+
+.desc {
+    margin: 0;
+    margin-top: 5px;
+    color: gray;
+}
+
+.bold-text {
+    font-weight: 400;
+}
+
+.btn-add {
+    margin-top: 5px;
+    border: none;
+    width: 100%;
+    color: aliceblue;
+    padding: 15px;
+    background-color: rgb(27, 201, 143);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn-add:hover {
+    background-color: blueviolet;
+}
